@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Primary Meta Tags -->
+	<title>El Galpón del Oeste - Beer & Drinks</title>
+	<meta name="title" content="El Galpón del Oeste - Beer & Drinks">
+	<meta name="description" content="Las mejores bebidas de la zona! ">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://metatags.io/">
+	<meta property="og:title" content="El Galpón del Oeste - Beer & Drinks">
+	<meta property="og:description" content="Las mejores bebidas de la zona! ">
+	<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://metatags.io/">
+	<meta property="twitter:title" content="El Galpón del Oeste - Beer & Drinks">
+	<meta property="twitter:description" content="Las mejores bebidas de la zona! ">
+	<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+	<!--Incorporo Fontawesome & mi hoja de estilo-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+	<!--Head-->
+	<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+	  <a class="navbar-brand" href="index.html">
+	    <i class="fas fa-store"></i>
+	</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="vidriera.html">Vidriera</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="contacto.html">Contacto</a>
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+
+	<!--Content-->
+
+	<h2 class="text-center p-3 mb-2 bg-success text-white">Resolvemos tus dudas</h2>
+
+	<div class="container">
+		<div class="row">
+			<h3 class="col-12 text-center p-1 mb-2 bg-info text-white">Aquí estamos</h3>
+			<div class="col-12 d-flex justify-content-center mb-3">
+				<div class="card">
+			  		<div class="card-header">
+			    		Zona Oeste - Morón
+			  		</div>
+			  		<div class="card-body">
+			  		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13128.810987916817!2d-58.61488084685057!3d-34.64958231003338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1596320937305!5m2!1ses!2sar" width="480" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+			    		<h5 class="card-title">A unas pocas cuadras de la estación</h5>
+			    		<p class="card-text">Muchos medios de transportes y una zona comercial cercana.</p>
+			  		</div>
+				</div>				
+			</div>
+			<h3 class="col-12  text-center p-1 mb-2 bg-info text-white">Contactanos</h3>
+			<div class="col-12 d-flex justify-content-center mb-3">
+				<form class="p-5 bg-light text-dark" id="form-contact">
+					<div class="form-group row">
+						<label for="formGroupExampleInput" class="col-4">Nombre</label>
+					    <input type="text" class="form-control col-8" id="name" placeholder="Completá con tu nombre">
+					</div>
+					<div class="form-group row">
+						<label for="formGroupExampleInput" class="col-4">Apellido</label>
+					    <input type="text" class="form-control col-8" id="surname" placeholder="Completá con tu apellido">
+					</div>
+					<div class="form-group row">
+    					<label for="exampleFormControlSelect1" class="col-4">Tipo de consulta</label>
+    					<select class="form-control col-8" id="type">
+							<option>Tu opción</option>
+							<option>Delivery</option>
+							<option>Trago</option>
+							<option>Cerveza</option>
+						</select>
+    				</div>								
+					<div class="form-group row">
+					    <label for="exampleInputEmail1" class="col-4">Email address</label>
+					    <input type="email" class="form-control col-8" id="email" aria-describedby="emailHelp">
+					</div>
+					<div class="form-group row">
+						<label for="exampleFormControlTextarea1" class="col-4">Consulta</label>
+					    <textarea class="form-control col-8" id="text-info" rows="3"></textarea>
+					</div>
+					<button type="button" class="btn btn-outline-primary btn-block" id="send">Enviar</button>	
+					<button type="button" class="btn btn-outline-secondary btn-block" id="clear">Limpiar</button>
+					<small id="error" class="form-text text-muted"></small>
+				</form>				
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div id="footer" class= "col-12">
+		<p>En colaboración con ©Le Wagon</p>
+		<ul class="list-inline">
+		 	<li class="list-inline-item"> <a href="#"> <i class="fab fa-linkedin-in"></i></a></li>
+		 	<li class="list-inline-item"> <a href="#"> <i class="far fa-paper-plane"></i></a></li>
+			<li class="list-inline-item"> <a href="#"> <i class="fab fa-pinterest"></i></a></li>
+			<li class="list-inline-item"> <a href="#"> <i class="fab fa-github"></i></a></li>
+		</ul>
+	</div>	
+
+	<!--Scripts-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/validation.js"></script>
+</body>
+</html>

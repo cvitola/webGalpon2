@@ -1,0 +1,45 @@
+/*Incorporar Boostrap al ppio*/
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
+/*Incorporo fuentes a utilizar */
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Frijole&family=Permanent+Marker&family=Poppins:wght@900&display=swap');
+/*Mis componentes*/
+@import url('components/navbar.css');
+@import url('components/avatar.css');
+@import url('components/footer.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card-presentation.css');
+@import url('components/card-product.css');
+@import url('components/card-general.css');
+
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url("https://images.unsplash.com/photo-1531824475211-72594993ce2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); 
+	background-size: cover;
+	background-color: #F1F1F1;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+}
+h3{
+	font-family: 'Permanent Marker', cursive;	
+}
+
+/*Corregir el desplazamiento del carrusel */
+.carousel {
+  width:600px;
+  height:360px;
+}
+.carousel-inner > .item > img {
+  width:600px;
+  height:360px;
+}
+
+/*Correccion pagina Contacto */
+@media (max-width: 576px) {
+	iframe{
+		width: 300px;
+		height: 200px;
+	}
+  }

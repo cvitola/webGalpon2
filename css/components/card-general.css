@@ -1,0 +1,15 @@
+.card-general{
+	padding: 10px;
+	position: relative;
+}
+.card-general p{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.card-general:hover{
+	transition: 1s;
+	font-size: 32px;
+	color: white;
+	text-shadow: 3px 3px 6px black;
+}

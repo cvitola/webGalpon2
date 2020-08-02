@@ -1,0 +1,21 @@
+.card-presentation{
+  
+  font-weight: lighter;
+  color: black;
+  border-radius: 15px;
+  border: #f6e5f5 3px solid;
+  background: #fbf4f9;
+
+}
+
+.card-poresentation p{
+	/*font-family: 'Noto Sans JP';*/
+	font-size: 16px;
+}
+
+.card-presentation:hover{
+	transition: 1s;
+ 	background: rgba(246,229,245,0.8);
+ 	border: #fbf4f9 3px solid;
+
+}
